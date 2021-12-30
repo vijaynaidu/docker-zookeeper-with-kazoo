@@ -1,4 +1,4 @@
-FROM zookeeper
+FROM zookeeper:3.7.0
 RUN apk update \
     && apk add python3 -y
 
